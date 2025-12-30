@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Portfolio • Single Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">
+        <span class="brand-dot"></span>
+        <span>JG</span>
+      </a>
+
+      <nav class="navlinks" id="navlinks">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeBtn" aria-label="Toggle theme" title="Toggle theme">
+          <span class="sun">☀</span>
+          <span class="moon">☾</span>
+        </button>
+
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+    <section id="home" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-card card-3d reveal">
+          <div class="pill">Aspiring Web Developer • IT Student</div>
+          <h1 class="title">
+            Hi, I’m <span class="grad">Jian B. Godes</span>.
+          </h1>
+          <p class="subtitle">
+            I am Information Technology student passionate about building clean, functional, and
+            user-friendly web applications. This portfolio showcases my skills, projects, and growth
+            as a future IT professional.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="quote">
+            “Learning never exhausts the mind.”
+          </div>
+        </div>
+
+        <div class="profile-card card-3d reveal">
+          <div class="avatar">
+            <img src="profile.png.jpg" alt="Profile photo" />
+          </div>
+
+          <div class="mini">
+            <div class="mini-item">
+              <div class="mini-num">2nd Year</div>
+              <div class="mini-label">BSIT Student</div>
+            </div>
+            <div class="mini-item">
+              <div class="mini-num">HTML & CSS</div>
+              <div class="mini-label">Core Skills</div>
+            </div>
+            <div class="mini-item">
+              <div class="mini-num">Fast Learner</div>
+              <div class="mini-label">Always Improving</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>About Me</h2>
+          <p>A quick background and what I’m focused on right now.</p>
+        </div>
+
+        <div class="grid-2">
+          <article class="card-3d reveal">
+            <h3>Education</h3>
+            <p>
+              I am currently a BS Information Technology student, continuously developing my skills in
+               programming, web development, and system design. I enjoy learning new technology and
+               applying them to real world problems through hands on project.
+
+            </p>
+            <ul class="bullets">
+              <li>Course: Bachelor of Science in Information Technology(BSIT)</li>
+              <li>School: Eastern Visayas State University(EVSU)</li>
+              <li>Focus: Web Development, Programming, Database</li>
+            </ul>
+          </article>
+
+          <article class="card-3d reveal">
+            <h3>Interests & Hobbies</h3>
+            <p>
+              I like learning modern web UI, experimenting with 3D CSS effects, and building small apps.
+              Outside coding, I enjoy music, gaming, and creative design.
+            </p>
+            <ul class="bullets">
+              <li>Technical interest: Frontend + UI animations</li>
+              <li>Exploring: JavaScript, APIs, and basic backend</li>
+              <li>Hobbies: Watching K-drama, playing online games, and watching tech tutorials</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>Projects</h2>
+      <p>A collection of projects that reflect my growth as an IT student.</p>
+    </div>
+
+    <div class="grid-3">
+    
+      <article class="project card-3d reveal">
+        <div class="p-head">
+          <div class="p-icon" aria-hidden="true">💻</div>
+          <div class="p-top">
+            <h3>Student Portfolio (Basic)</h3>
+            <p class="muted">
+              A clean personal website with sections, responsive layout, and smooth navigation.
+            </p>
+          </div>
+        </div>
+
+        <div class="meta">
+          <span class="tag">Role: Designer + Developer</span>
+          <span class="tag">Tools: HTML • CSS • JS</span>
+        </div>
+
+        <div class="actions">
+          <a class="btn small ghost" href="#contact">Request Demo</a>
+          <a class="btn small primary" href="#">GitHub</a>
+        </div>
+      </article>
+
+      
+      <article class="project card-3d reveal">
+        <div class="p-head">
+          <div class="p-icon" aria-hidden="true">✅</div>
+          <div class="p-top">
+            <h3>To-Do List App</h3>
+            <p class="muted">
+              A simple task manager with add/delete, localStorage save, and clean UI.
+            </p>
+          </div>
+        </div>
+
+        <div class="meta">
+          <span class="tag">Role: Frontend Dev</span>
+          <span class="tag">Tools: JavaScript • DOM</span>
+        </div>
+
+        <div class="actions">
+          <a class="btn small ghost" href="#contact">Request Demo</a>
+          <a class="btn small primary" href="#">GitHub</a>
+        </div>
+      </article>
+
+      
+      <article class="project card-3d reveal">
+        <div class="p-head">
+          <div class="p-icon" aria-hidden="true">🧮</div>
+          <div class="p-top">
+            <h3>Mini Calculator</h3>
+            <p class="muted">
+              A calculator UI that handles basic arithmetic with keyboard support.
+            </p>
+          </div>
+        </div>
+
+        <div class="meta">
+          <span class="tag">Role: Developer</span>
+          <span class="tag">Tools: HTML • CSS • JS</span>
+        </div>
+
+        <div class="actions">
+          <a class="btn small ghost" href="#contact">Request Demo</a>
+          <a class="btn small primary" href="#">GitHub</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+    
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Skills</h2>
+          <p>Tech stack, tools, and strengths I’m building up.</p>
+        </div>
+
+        <div class="grid-2">
+          <article class="card-3d reveal">
+            <h3>Technical</h3>
+            <div class="chips">
+              <span class="chip">HTML5</span>
+              <span class="chip">CSS3</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">Responsive Design</span>
+              <span class="chip">Basic Git</span>
+              <span class="chip">DOM</span>
+              <span class="chip">UI/UX Basics</span>
+              <span class="chip">Networking Basics</span>
+              <span class="chip">Database Basics</span>
+            </div>
+          </article>
+
+          <article class="card-3d reveal">
+            <h3>Soft Skills & Tools</h3>
+            <div class="chips">
+              <span class="chip">Teamwork</span>
+              <span class="chip">Collaboration</span>
+              <span class="chip">Problem-Solving</span>
+              <span class="chip">Communication</span>
+              <span class="chip">VS Code</span>
+              <span class="chip">GitHub</span>
+              <span class="chip">Linux Basics</span>
+              <span class="chip">Docker (Learning)</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Contact</h2>
+          <p>Feel free to reach  out for collaboration or opportunities.</p>
+        </div>
+
+        <div class="grid-2">
+          <form class="card-3d reveal" id="contactForm">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@email.com" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+            </div>
+
+            <button class="btn primary" type="submit">Send Message</button>
+            <div class="toast" id="toast" role="status" aria-live="polite"></div>
+          </form>
+
+          <aside class="card-3d reveal">
+            <h3>Direct Info</h3>
+            <p class="muted">You can also reach me here:</p>
+
+            <div class="info">
+              <div class="info-row">
+                <span class="ico">✉</span>
+                <div>
+                  <div class="info-label">Email</div>
+                  <a class="info-link" href="mailto:yourname@email.com">jiangodes97@email.com</a>
+                </div>
+              </div>
+
+              <div class="info-row">
+                <span class="ico">⌁</span>
+                <div>
+                  <div class="info-label">GitHub</div>
+                  <a class="info-link" href="#" target="_blank" rel="noreferrer">github.com/jian29betonz</a>
+                </div>
+              </div>
+
+              <div class="info-row">
+                <span class="ico">in</span>
+                <div>
+                  <div class="info-label">LinkedIn</div>
+                  <a class="info-link" href="#" target="_blank" rel="noreferrer">linkedin.com/in/https://www.facebook</a>
+                </div>
+              </div>
+
+              <div class="info-row">
+                <span class="ico">f</span>
+                <div>
+                  <div class="info-label">Facebook Page</div>
+                  <a class="info-link" href="#" target="_blank" rel="noreferrer">https://www.facebook.com/jian.betonio.5</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <p class="muted tiny">
+              
+            </p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Jian Godes• Built with HTML + CSS</p>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    
+    const root = document.documentElement;
+    const themeBtn = document.getElementById("themeBtn");
+    const saved = localStorage.getItem("theme");
+    if (saved) root.setAttribute("data-theme", saved);
+
+    themeBtn.addEventListener("click", () => {
+      const current = root.getAttribute("data-theme") || "light";
+      const next = current === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      localStorage.setItem("theme", next);
+    });
+
+    
+    const hamburger = document.getElementById("hamburger");
+    const navlinks = document.getElementById("navlinks");
+    hamburger.addEventListener("click", () => {
+      const open = navlinks.classList.toggle("open");
+      hamburger.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    navlinks.querySelectorAll("a").forEach(a => {
+      a.addEventListener("click", () => {
+        navlinks.classList.remove("open");
+        hamburger.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    
+    const form = document.getElementById("contactForm");
+    const toast = document.getElementById("toast");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      toast.textContent = "✅ Message sent! (Demo only)";
+      toast.classList.add("show");
+      setTimeout(() => toast.classList.remove("show"), 2500);
+      form.reset();
+    });
+
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add("in");
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+
+    
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
